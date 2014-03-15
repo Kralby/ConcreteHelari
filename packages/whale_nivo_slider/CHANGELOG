@@ -1,0 +1,18 @@
+1.2
+	- change /css/themes/ to /css/nivo_theme/ for better integration on other packages (themes)
+	- change the way theme resources loads css files
+	- Change how item images alt/title tag generate, now if user did not fill title/desc inputs, it filled with image name/desc attribute.
+1.1
+	- now added themes automatically load into add/edit ui, for ease of creating new themes. (voided at version 1.2)
+1.0.4
+	- fix for controlNavThumbs not showing up (Thanks cd13sr)
+	- fix for disappear items on duplicate (Thanks cpillot)
+1.0.3
+	- fix for IE7 compatibility (Thanks ForestMist)
+1.0.2 
+	- minor css changes
+	- add fill image title/description buttons
+	- fix for 'manual advance. not saving.
+1.0.1 
+	- Fix for image link bug at IE
+1.0.0 - Initial Release

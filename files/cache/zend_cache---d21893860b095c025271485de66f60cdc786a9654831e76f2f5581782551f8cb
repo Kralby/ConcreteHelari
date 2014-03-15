@@ -1,0 +1,32 @@
+O:8:"stdClass":4:{s:7:"version";s:7:"5.6.2.1";s:5:"notes";s:1787:"
+	
+<h2>5.6.2.1 Release Notes</h2>
+
+<h2>Features</h2>
+
+<ul>
+<li>Great new UI Improvements to the Select Attribute (thanks arcanepain)
+</li>
+</ul>
+
+<h2>Bug Fixes</h2>
+
+<ul>
+	<li>Fixed broken queue operations on systems that didn’t have the MySQL PDO extension installed. http://www.concrete5.org/developers/bugs/5-6-2/copy-page-children-pages-no-longer-working/</li>
+	<li>Removed Main area from Page Forbidden because it was causing problems in certain advanced permissions setups and the page object isn’t set to a Page Forbidden single page anyway, so the intended behavior would never work correctly.</li>
+	<li>Fixed Upgrade issue with moving from 5.5.2.1 to 5.6.2.1 http://www.concrete5.org/developers/bugs/5-6-2/manually-upgrading-from-5.5.2.1-to-5.6.2-causes-mysql-error/</li>
+	<li>Fixed Page version update of block permission edit http://www.concrete5.org/developers/bugs/5-6-2/block-permission-update-isnt-considered-a-page-update-for-edit-m/</li>
+	<li>Fixed Error message with invalid Page Type handle http://www.concrete5.org/developers/bugs/5-6-2/receive-sql-error-when-trying-to-add-duplicated-page-type-handle/</li>
+	<li>Fixed tranlation compilation error http://www.concrete5.org/developers/bugs/5-6-2/concrete5-v5.6.2-messages.po-compile-error/ (thanks Remo)</li>
+	<li>Block Type names handled more robustly (thanks jordanlev)</li>
+	<li>Clarified empty UI when background image of the day was changed by constant http://www.concrete5.org/developers/bugs/5-6-2/empty-interface-settings/</li>
+</ul>
+
+<h2>Developer Updates</h2>
+	<ul>
+	<li>Allow ConcreteDashboardHelper::inDashboard() to take a string path (thanks aghouseh)</li>
+	<li>Various code cleanups (thanks ojalehto, synlag, bluefuton, mlocati)</li>
+	<li>Removed BlockController::getUniqueIdentifier()</li>
+</ul>
+
+	";s:3:"url";s:46:"http://www.concrete5.org/download_file/-/58386";s:4:"date";s:10:"2013-08-28";}
